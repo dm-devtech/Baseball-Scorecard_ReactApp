@@ -4,6 +4,11 @@ import Display from './Display.js';
 
 describe('<Display />', () => {
   it('renders without crashing', () => {
-    render(<Display />)
+    render(<Display />);
+  });
+  it('checks props work', () => {
+    const display = render(<Display strikes={2} balls={3} />);
+    display.getByText(/Strikes: 2/)
+    display.getByText(/Balls: 3/)
   })
 })
