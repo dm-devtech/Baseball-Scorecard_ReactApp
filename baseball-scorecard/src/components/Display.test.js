@@ -8,7 +8,17 @@ describe('<Display />', () => {
   });
   it('checks props work', () => {
     const display = render(<Display strikes={2} balls={3} />);
-    display.getByText(/Strikes: 2/)
-    display.getByText(/Balls: 3/)
-  })
+    expect(display.getByText(/Strikes: 2/))
+    expect(display.getByText(/Balls: 3/))
+  });
+  it('checks props work with different values', () => {
+    const display = render(<Display strikes={1} balls={2} />);
+    expect(display.getByText(/Strikes: 1/))
+    expect(display.getByText(/Balls: 2/))
+  });
+  it('testing edge case of incorrect values', () => {
+    const display = render(<Display strikes={-1} balls={2000} />);
+    expect(display.getByText(/Strikes: -1/))
+    expect(display.getByText(/Balls: 2000/))
+  });
 })
