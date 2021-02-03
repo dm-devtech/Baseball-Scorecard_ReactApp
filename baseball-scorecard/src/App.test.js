@@ -13,10 +13,18 @@ describe('<Controls />', () => {
     const foul = getByText(/^foul$/i);
     const hit = getByText(/^hit$/i);
      // ^ = begning of block of text $ = end of line of text
+
      // Test that strike works
      fireEvent.click(strike);
      fireEvent.click(strike);
      getByText(/Strikes: 2/);
+
+     // Test that ball works
+     fireEvent.click(ball);
+     fireEvent.click(ball);
+     fireEvent.click(ball);
+     getByText(/Balls: 3/)
+
      // Test that strike rolls over the count
      fireEvent.click(strike);
      getByText(/Strikes: 0/)
