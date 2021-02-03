@@ -17,5 +17,8 @@ describe('<Controls />', () => {
      fireEvent.click(strike);
      fireEvent.click(strike);
      getByText(/Strikes: 2/);
+     // Test that strike rolls over the count
+     fireEvent.click(strike);
+     getByText(/Strikes: 0/)
   });
 });
