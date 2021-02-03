@@ -42,5 +42,12 @@ describe('<Controls />', () => {
       getByText(/Strikes: 2/)
       fireEvent.click(foul);
       getByText(/Strikes: 2/)
+
+      // check that hit resets count
+      fireEvent.click(strike);
+      fireEvent.click(ball);
+      fireEvent.click(hit);
+      getByText(/Strikes: 0/)
+      getByText(/Strikes: 0/)
   });
 });
