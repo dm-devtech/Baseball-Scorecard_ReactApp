@@ -34,5 +34,13 @@ describe('<Controls />', () => {
      fireEvent.click(ball);
      getByText(/Strikes: 0/)
      getByText(/Balls: 0/)
+
+     // Test that foul doesnt increase strikes past 2
+      fireEvent.click(foul);
+      getByText(/Strikes: 1/)
+      fireEvent.click(foul);
+      getByText(/Strikes: 2/)
+      fireEvent.click(foul);
+      getByText(/Strikes: 2/)
   });
 });
