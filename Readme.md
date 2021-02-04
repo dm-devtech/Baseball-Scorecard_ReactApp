@@ -7,7 +7,7 @@ A React App to keep score of a baseball game
 ###### Testing
 - Jest / React testing library
 
-####### Coverage
+###### Coverage
 ```
 PASS  src/components/Display.test.js (5.996 s)
 PASS  src/components/Controls.test.js (6.066 s)
