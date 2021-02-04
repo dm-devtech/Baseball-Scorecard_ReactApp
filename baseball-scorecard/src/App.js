@@ -23,9 +23,7 @@ function App() {
     }
   }
   const scoreFoul = () => {
-    if(strikes !== 2){
-      setStrikes(strikes+1)
-    }
+    if(strikes !== 2) setStrikes(strikes+1)
   }
   const scoreHit = () => {
     setStrikes(0)
