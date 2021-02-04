@@ -1,5 +1,11 @@
-##### Baseball App
+#### Baseball App
 A React App to keep score of a baseball game
+
+###### Instructions
+- Button for strikes, balls, fouls and hits
+- Balls and Strikes resets on 3rd strike or 4th ball
+- Foul increases strikes by 1 if strikes less than 2
+- Hit resets strikes and Balls
 
 ###### Tech used
 - React
