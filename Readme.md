@@ -15,9 +15,6 @@ A React App to keep score of a baseball game
 
 ###### Coverage
 ```
-PASS  src/components/Display.test.js (5.996 s)
-PASS  src/components/Controls.test.js (6.066 s)
-PASS  src/App.test.js (6.319 s)
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
 ---------------------|---------|----------|---------|---------|-------------------
