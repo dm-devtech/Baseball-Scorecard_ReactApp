@@ -1,7 +1,7 @@
-#### Baseball App
+## Baseball App
 A React App to keep score of a baseball game
 
-##### Instructions
+### Instructions
 - Clone the repo
 - Change directory to baseball-scorecard
 - Run ```npm install```
@@ -13,13 +13,13 @@ A React App to keep score of a baseball game
 - Foul increases strikes by 1 if strikes less than 2
 - Hit resets strikes and Balls
 
-##### Tech used
+### Tech used
 - React
 
-##### Testing
+### Testing
 - Jest / React testing library
 
-##### Coverage
+### Coverage
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
 ---------------------|---------|----------|---------|---------|-------------------
 All files            |   63.64 |       50 |   77.78 |    62.5 |
