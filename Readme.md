@@ -8,10 +8,11 @@ A React App to keep score of a baseball game
 - To run the app run ```npm start```
 - The app will auto load in a web browser
 
-- Button for strikes, balls, fouls and hits
-- Balls and Strikes resets on 3rd strike or 4th ball
-- Foul increases strikes by 1 if strikes less than 2
-- Hit resets strikes and Balls
+### The Game
+- There are buttons for strikes, balls, fouls and hits
+- Balls and Strikes reset on 3rd strike or 4th ball
+- Foul increases strikes by 1 if there are less than 2 strikes
+- Clicking 'Hit' resets strikes and Balls
 
 ### Tech used
 - React
