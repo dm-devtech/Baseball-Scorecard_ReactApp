@@ -4,7 +4,7 @@ import { Fragment } from 'react';
 const Display = (props) => {
   return(
     <Fragment>
-    <div>Baseball Scorecard</div>
+    <div className="Header">Baseball Scorecard</div>
     <div className="body-text">
       <div className="strikes">Strikes: {props.strikes}</div>
       <div className="Balls">Balls: {props.balls}</div>
