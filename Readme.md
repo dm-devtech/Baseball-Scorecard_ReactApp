@@ -15,6 +15,7 @@ A React App to keep score of a baseball game
 
 ### Tech used
 - React
+- CSS
 
 ### Testing
 - Jest / React testing library
