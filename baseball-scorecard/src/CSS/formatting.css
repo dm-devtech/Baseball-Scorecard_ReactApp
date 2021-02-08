@@ -14,3 +14,15 @@
   color: darkblue;
   font: 70px Arial, sans-serif;
 }
+
+.buttons {
+  grid-row: 2 / 3;
+  button {
+    grid-row: 2 / 3;
+    font-family: 'Press Start 2P', cursive;
+    justify-self: center;
+    display: flex;
+    margin: 11% auto;
+    font-size: 50px;
+  }
+}
