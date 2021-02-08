@@ -8,6 +8,10 @@ describe('<Display />', () => {
   });
   it('checks props work', () => {
     const display = render(<Display strikes={2} balls={3} />);
+    expect(display.getByText(/Baseball Scorecard/))
+  });
+  it('checks props work', () => {
+    const display = render(<Display strikes={2} balls={3} />);
     expect(display.getByText(/Strikes: 2/))
     expect(display.getByText(/Balls: 3/))
   });

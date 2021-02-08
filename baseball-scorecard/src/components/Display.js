@@ -1,11 +1,15 @@
 import React from 'react';
+import { Fragment } from 'react';
 
 const Display = (props) => {
   return(
-    <div  className="body-text">
-      <div>Strikes: {props.strikes}</div>
-      <div>Balls: {props.balls}</div>
+    <Fragment>
+    <h1>Baseball Scorecard</h1>
+    <div className="body-text">
+      <div className="strikes">Strikes: {props.strikes}</div>
+      <div className="Balls">Balls: {props.balls}</div>
     </div>
+    </Fragment>
   )
 }
 
