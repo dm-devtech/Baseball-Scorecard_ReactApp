@@ -5,6 +5,7 @@
   color: darkblue;
   font: 90px Arial, sans-serif;
   font-weight: bold;
+  text-align: center;
 }
 
 .body-text {
@@ -13,6 +14,7 @@
   letter-spacing: 5px;
   color: darkblue;
   font: 70px Arial, sans-serif;
+  text-align: center;
 }
 
 .buttons {
