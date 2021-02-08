@@ -1,4 +1,4 @@
-## Baseball App
+## Baseball Scorecard App
 A React App to keep score of a baseball game
 
 ### Instructions
@@ -22,7 +22,7 @@ A React App to keep score of a baseball game
 - Jest / React testing library
 
 ### Coverage
-File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line's
+File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Lines
 ---------------------|---------|----------|---------|---------|-------------------
 All files            |   63.64 |       50 |   77.78 |    62.5 |
  src                 |   58.62 |       50 |   71.43 |   57.14 |
