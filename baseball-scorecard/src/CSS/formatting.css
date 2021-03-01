@@ -2,19 +2,21 @@
   height: 100%;
   width: 100%;
   letter-spacing: 5px;
-  color: darkblue;
+  color: black;
   font: 90px Arial, sans-serif;
   font-weight: bold;
   text-align: center;
+   text-shadow: 2px 2px #ffffff;
 }
 
 .body-text {
   height: 100%;
   width: 100%;
   letter-spacing: 5px;
-  color: darkblue;
+  color: black;
   font: 70px Arial, sans-serif;
   text-align: center;
+   text-shadow: 2px 2px #ffffff;
 }
 
 .buttons {
@@ -27,4 +29,9 @@
     margin: 11% auto;
     font-size: 50px;
   }
+}
+
+body {
+  background-color: black;
+  background-image: url('./bball-field.jpg');
 }
