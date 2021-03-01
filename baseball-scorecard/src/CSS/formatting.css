@@ -2,36 +2,43 @@
   height: 100%;
   width: 100%;
   letter-spacing: 5px;
-  color: black;
+  color: darkblue;
   font: 90px Arial, sans-serif;
   font-weight: bold;
   text-align: center;
-   text-shadow: 2px 2px #ffffff;
+  text-shadow: 2px 2px #ffffff;
 }
 
 .body-text {
   height: 100%;
   width: 100%;
   letter-spacing: 5px;
-  color: black;
+  color: darkblue;
   font: 70px Arial, sans-serif;
   text-align: center;
-   text-shadow: 2px 2px #ffffff;
-}
-
-.buttons {
-  grid-row: 2 / 3;
-  button {
-    grid-row: 2 / 3;
-    font-family: 'Press Start 2P', cursive;
-    justify-self: center;
-    display: flex;
-    margin: 11% auto;
-    font-size: 50px;
-  }
+  text-shadow: 2px 2px #ffffff;
 }
 
 body {
-  background-color: black;
+  background-color: green;
   background-image: url('./bball-field.jpg');
+}
+
+.buttons {
+  margin: 0 auto;
+  size: 200px
+}
+
+.click:hover {
+    background: lightblue;
+    transform: scale(2);
+    transition-duration: 0.2s;
+    opacity: 0.8;
+}
+
+.click {
+    width: 150px;
+    background: white;
+    font-size: 40px;
+    cursor: pointer;
 }
