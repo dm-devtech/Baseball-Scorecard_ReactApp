@@ -1,6 +1,9 @@
 ## Baseball Scorecard App
 A React App to keep score of a baseball game
 
+## Screenshot
+![Coverage](./baseball-scorecard/Screenshots/Page1.JPG)
+
 ### Instructions
 - Clone the repo
 - Change directory to baseball-scorecard
