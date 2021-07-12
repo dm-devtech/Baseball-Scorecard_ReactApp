@@ -1,4 +1,5 @@
 ## Baseball Scorecard App
+[![Build Status](https://travis-ci.com/dm-devtech/Baseball-Scorecard_ReactApp.svg?branch=main)](https://travis-ci.com/dm-devtech/Baseball-Scorecard_ReactApp)
 - A React App to keep score of a baseball game
 - Hosted on Heroku [here](https://baseball-scorecard.herokuapp.com/)
 
