@@ -1,5 +1,6 @@
 ## Baseball Scorecard App
-A React App to keep score of a baseball game
+- A React App to keep score of a baseball game
+- Hosted on Heroku [here](https://baseball-scorecard.herokuapp.com/)
 
 ## Screenshot
 ![Coverage](./baseball-scorecard/Screenshots/Page.JPG)
