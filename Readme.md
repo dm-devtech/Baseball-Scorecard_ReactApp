@@ -3,7 +3,7 @@
 - Hosted on Heroku [here](https://baseball-scorecard.herokuapp.com/)
 
 ## Screenshot
-![Coverage](./baseball-scorecard/Screenshots/Page.JPG)
+![Coverage](./Screenshots/Page.JPG)
 
 ### Instructions
 - Clone the repo
