@@ -3,13 +3,13 @@ import { Fragment } from 'react';
 
 const Display = (props) => {
   return(
-    <Fragment>
-    <div className="Header">Baseball Scorecard</div>
-    <div className="body-text">
-      <div className="strikes">Strikes: {props.strikes}</div>
-      <div className="Balls">Balls: {props.balls}</div>
+    <div>
+      <h1 className="display-1">Baseball Scorecard</h1>
+        <div className="display-1">
+        <div class="h2">Strikes: {props.strikes}</div>
+        <div class="h2">Balls: {props.balls}</div>
+        </div>
     </div>
-    </Fragment>
   )
 }
 

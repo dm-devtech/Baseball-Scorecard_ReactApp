@@ -2,6 +2,7 @@ import React, { useState} from 'react';
 import './App.css';
 import Display from './components/Display.js'
 import Controls from './components/Controls.js'
+import Layout from './components/Layout.js'
 
 function App() {
   const [strikes, setStrikes] = useState(0);
@@ -30,14 +31,16 @@ function App() {
     setBalls(0)
   }
   return (
-    <div className="App">
-      <Display strikes={strikes} balls={balls} />
-      <Controls strike={scoreStrike}
-      ball={scoreBall}
-      foul={scoreFoul}
-      hit={scoreHit}
-      />
-    </div>
+    <Layout>
+      <div className="App">
+        <Display strikes={strikes} balls={balls} />
+        <Controls strike={scoreStrike}
+        ball={scoreBall}
+        foul={scoreFoul}
+        hit={scoreHit}
+        />
+      </div>
+    </Layout>
   );
 }
 
