@@ -3,9 +3,6 @@
 - A React App to keep score of a baseball game
 - Hosted on Heroku [here](https://baseball-scorecard.herokuapp.com/)
 
-## Screenshot
-![Coverage](./Screenshots/Page.JPG)
-
 ### Instructions
 - Clone the repo
 - Change directory to baseball-scorecard
